@@ -1,0 +1,30 @@
+Variables
+
+General:
+Name
+
+Cloud Network:
+Network_name
+bgp_routing_mode
+network_subnet1_cidr
+network_subnet2_cidr
+subnet_region1
+subnet_region2
+network = google_compute_network.Migra-net.id
+firewall_egress_protocol
+firewall_egress_ports
+firewall_egress_source_ranges
+firewall_ingress_protocol
+firewall_ingress_ports
+firewall_ingress_source_ranges
+...
+
+Cloud Instances:
+instance1_machine-type
+instance1_zone
+instance1_image
+instance1_network
+instance2_machine-type
+instance2_zone
+instance2_image
+instance2Netbg_network
