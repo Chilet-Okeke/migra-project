@@ -24,12 +24,12 @@ variable "network_subnet2_cidr" {
     type = string
 }
 
-variable "subnet_region1" {
+variable "network_region1" {
     description = "subnet1 region"
     type = string
 }
 
-variable "subnet_region2" {
+variable "network_region2" {
     description = "subnet2 region"
     type = string
 }

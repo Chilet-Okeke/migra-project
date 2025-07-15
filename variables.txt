@@ -9,8 +9,8 @@ Network_name
 bgp_routing_mode
 network_subnet1_cidr
 network_subnet2_cidr
-subnet_region1
-subnet_region2
+network_region1 --> subnet region-1
+network_region2 --> subnet region-2
 network = google_compute_network.Migra-net.id
 firewall_egress_protocol
 firewall_egress_ports
