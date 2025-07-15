@@ -2,6 +2,7 @@ Variables
 
 General:
 Name
+project_id
 
 Cloud Network:
 Network_name
@@ -27,4 +28,4 @@ instance1_network
 instance2_machine-type
 instance2_zone
 instance2_image
-instance2Netbg_network
+instance2_network
