@@ -1,11 +1,13 @@
 variable "instance1_machine-type" {
-    description = "Compute Engine instance type for VM-1"
+    description = "Compute Engine machine type for VM-1 instances"
     type = string
+    default = "e2-medium-2"
 }
 
 variable "instance1_zone" {
     description = "Zone for VM-1"
     type = string
+    default = "us-central1-f"
 }
 
 variable "instance1_image" {
@@ -22,12 +24,14 @@ variable "instance1_network" {
 
 variable "instance2_machine-type" {
     description = "Compute Engine instance type for VM-2"
-    type = 
+    type = string
+    default = "e2-medium-2"
 }
 
 variable "instance2_zone" {
     description = "Zone for VM-2"
-    type = 
+    type = string
+    default = "europe-west1-b"
 }
 
 

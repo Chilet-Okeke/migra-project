@@ -1,11 +1,5 @@
-variable "network" {
-    description = "value"
-    type = string
-    default = "google_compute_network.Migra-net.id"
-}
-
 variable "network_name" {
-    description = "value"
+    description = "Name of the network"
     type = string
 }
 
@@ -16,22 +10,25 @@ variable "bgp_routing_mode" {
 
 variable "network_subnet1_cidr" {
     description = "subnet1 ip range"
-    type = string
+    type = any
+
 }
 
 variable "network_subnet2_cidr" {
     description = "subnet2 ip range"
-    type = string
+    type = any
 }
 
 variable "network_region1" {
     description = "subnet1 region"
     type = string
+    default = "us-central1"
 }
 
 variable "network_region2" {
     description = "subnet2 region"
     type = string
+    default = "europe-west1"
 }
 
 variable "firewall_egress_protocol" {

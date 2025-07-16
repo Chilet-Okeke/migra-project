@@ -3,6 +3,12 @@ Variables
 General:
 Name
 project_id
+primary_resource_region
+secondary_resource_region
+create_vpc_network
+create_onprem_network
+create_vpn
+
 
 Cloud Network:
 Network_name
@@ -29,3 +35,11 @@ instance2_machine-type
 instance2_zone
 instance2_image
 instance2_network
+
+
+HA-VPN peering:
+onprem_ha-connect_source_ranges
+onprem-asn	
+cloud_vpn_shared_secret
+onprem_tunnel-0_ip
+onprem-router-ip
